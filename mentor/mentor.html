@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      body {
+        background-color: gainsboro;
+      }
+
+      h1 {
+        color: black;
+        text-align: center;
+      }
+
+      p {
+        text-align: center;
+        color: darkgreen;
+        margin-left: 14px;
+        font-size: larger;
+      }
+
+      .list {
+        list-style-position: inside;
+        padding-left: 32%;
+        color: blue;
+        font-size: large;
+      }
+
+      .trailhead {
+        text-align: center;
+        max-width: 310px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(2, 2, 2, 0.1);
+      }
+
+      .trailhead input[id="point"],
+      .trailhead input[id="batch"] {
+        width: 100px;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 2px solid #cccccc;
+        border-radius: 3px;
+      }
+
+      .trailhead input[type="submit"] {
+        width: 50px;
+        padding: 10px;
+        background-color: #6cb36e;
+        color: #ffffff;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+      }
+
+      .trailhead input[type="submit"]:hover {
+        background-color: #565f56;
+      }
+
+      .img_p {
+        padding: 20px;
+        float: right;
+      }
+      
+    </style>
+
+    <h1>ZERO TO HERO Batch Group 1</h1>
+
+    <div class="list">
+        <input type="checkbox" /> Kanymgul Kenzheeva <br>
+        <input type="checkbox" /> Madina Tadzhibaeva <br> 
+        <input type="checkbox" /> Andrei Vitiuc <br>
+        <input type="checkbox" /> Ali Almagbari <br>
+        <input type="checkbox" /> Makhabbat Barlybay <br>
+        <input type="checkbox" /> Vita Drozdova <br>
+        Zhamilia Khaliafieva <input type="checkbox" /> <br>
+        Nilufar Abdukhamitova <input type="checkbox" /> <br>
+        Marina Lugova <input type="checkbox" /> <br>
+        Denise Poslavsky <input type="checkbox" /> <br>
+        Busra Gul Bayram <input type="checkbox" /> <br>
+        Gozde Aydogan <input type="checkbox" /> <br>
+    </div>
+
+    <p>This is a GREAT Group!</p>
+
+    <div class="trailhead">
+      <h1>Trailhead</h1>
+      <input id="point" type="number" placeholder="point" />
+      <input id="batch" type="number" placeholder="batch" />
+      <input type="submit" value="Rank" onclick="rank()" />
+    </div>
+
+    <center>
+      <img class="img_p" src="SF.png" height="150" 
+           title="Salesfoce icon">
+    </center>
+
+    <p>What is Salesforce?
+      Salesforce is the world’s #1 customer relationship management (CRM) platform. 
+      We help your marketing, sales, commerce, service and IT teams work as one from anywhere
+      so you can keep your customers happy everywhere.</p>
+    
+      <script src="mentor.js"></script>
+  </body>
+</html>
